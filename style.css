@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.quiz-Heading {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.desc {
+    text-align: center;
+}
+
+.sub-heading {
+    text-align: center;
+}
+
+.signUp {
+    text-decoration: none;
+}
+
+.login {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.signUpCardHeading {
+    text-align: center;
+}
+
+.submitBtn {
+    margin: auto;
+}
+
+#signUpCard {
+    position: absolute;
+     top: 18%; 
+     left: 32%; 
+    background-color: whitesmoke;
+    display: none;
+    width: 500px;
+    height: 500px;
+}
+
+#loginCard {
+    position: absolute;
+    top: 18%;
+    left: 32%;
+    background-color: whitesmoke;
+    display: none;
+    width: 450px;
+    height: 450px;
+}
+
+/* inner Page */
+.innerPgHeading{
+    font-size: 60px;
+    font-weight: 300;
+}
+hr{
+    border: 1px solid;
+}
+
+.innerCard1{
+    background-color: whitesmoke;
+}
+
+.joinBtn{
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 7px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.innerPG{
+    display: none;
+}
+.innerPG-hero-section{
+    display: none;
+}
+@media only screen and (max-width:430px) {
+    #signUpCard{
+      width: 300px;
+      height: 500px;
+      top: 18%; 
+      left: 12%; 
+    }
+    #loginCard{
+        width: 300px;
+        height: 400px;
+        top: 18%; 
+        left: 12%; 
+      }
+  }
+
